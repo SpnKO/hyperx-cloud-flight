@@ -3,7 +3,7 @@ use log::{debug, info};
 use std::cell::Cell;
 
 const VENDOR_ID: u16 = 0x0951;
-const PRODUCT_IDS: [u16; 2] = [0x1723, 0x16c4];
+const PRODUCT_IDS: u16 = 0x1718;
 
 const BATTERY_TRIGGER_PACKET: [u8; 20] = {
     let mut buf = [0; 20];
